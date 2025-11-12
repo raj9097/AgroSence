@@ -5,7 +5,7 @@
 A comprehensive Android application for real-time farm monitoring using Raspberry Pi sensors, Firebase integration, and intelligent automation controls. Monitor environmental conditions, control irrigation systems, and receive data-driven insights for optimal crop management.
 
 <div align="center">
-  <img src="screenshots/app_logo.png" alt="AgriSmart Logo" width="120" height="120">
+  <img src="app/src/SCREENSHOTS/app_logo.png" alt="AgriSmart Logo" width="120" height="120">
 </div>
 
 ## 📱 Screenshots
@@ -70,7 +70,7 @@ A comprehensive Android application for real-time farm monitoring using Raspberr
 
 ## 🏗️ Project Structure
 
-```
+
 app/
 ├── src/main/java/com/farmmonitor/agriai/
 │   ├── fragments/
@@ -115,7 +115,7 @@ app/
 │
 ├── build.gradle (Module: app)            # App-level dependencies
 └── AndroidManifest.xml                   # App configuration and permissions
-```
+
 
 ## 🛠️ Technologies Used
 
@@ -165,31 +165,31 @@ app/
 ## 🚀 Installation & Setup
 
 ### **1. Clone the Repository**
-```bash
+bash
 git clone https://github.com/yourusername/agrismart-monitor.git
 cd agrismart-monitor
-```
+
 
 ### **2. Android App Setup**
-```bash
+bash
 # Open project in Android Studio
 # File -> Open -> Select the project folder
 
 # Add Firebase configuration
 # Download google-services.json from Firebase Console
 # Place it in app/ directory
-```
+
 
 ### **3. Configure API Keys**
-```java
+java
 // In FarmDataFragment.java, replace with your API key
 private static final String WEATHER_API_KEY = "your_openweathermap_api_key";
-```
+
 
 ### **4. Firebase Setup**
 1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com)
 2. Enable Realtime Database with these rules:
-```json
+json
 {
   "rules": {
     "farms": {
@@ -198,21 +198,21 @@ private static final String WEATHER_API_KEY = "your_openweathermap_api_key";
     }
   }
 }
-```
+
 
 ### **5. Build and Run**
-```bash
+bash
 # Build the project
 ./gradlew build
 
 # Install on device
 ./gradlew installDebug
-```
+
 
 ## 🔧 Configuration
 
 ### **Firebase Database Structure**
-```json
+json
 {
   "farms": {
     "farm_1": {
@@ -225,13 +225,12 @@ private static final String WEATHER_API_KEY = "your_openweathermap_api_key";
     "farm_2": { ... }
   }
 }
-```
 
 ### **Default Login Credentials**
-```
+
 Email: admin@gmail.com
 Password: 123456
-```
+
 
 ## 📊 Usage
 
@@ -273,14 +272,14 @@ We welcome contributions to improve AgriSmart Monitor. Please follow these steps
 ## 📝 API Documentation
 
 ### **Weather API Integration**
-```java
+java
 // Weather data retrieval
 WeatherApi api = RetrofitClient.getInstance().create(WeatherApi.class);
 api.getWeather(cityName, apiKey, "metric").enqueue(callback);
-```
+
 
 ### **Firebase Data Structure**
-```java
+java
 // Sensor data model
 public class SensorData {
     private Double temperature;
@@ -289,7 +288,6 @@ public class SensorData {
     private Double lightLevel;
     private Long lastUpdate;
 }
-```
 
 ## 🐛 Known Issues
 
