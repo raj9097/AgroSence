@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="green_300">#81C784</color>
+    <color name="green_600">#43A047</color>
+    <color name="green_700">#388E3C</color>
+
+    <!-- Sensor Colors -->
+    <color name="orange_600">#FF9800</color>
+    <color name="blue_600">#2196F3</color>
+    <color name="brown_600">#795548</color>
+    <color name="yellow_600">#FFC107</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Status Colors -->
+    <color name="status_online">#4CAF50</color>
+    <color name="status_offline">#F44336</color>
+</resources>

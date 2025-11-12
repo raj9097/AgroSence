@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Agriai" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="Base.Theme.AgriAI" parent="Theme.Material3.DayNight">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/green_600</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">@color/green_300</item>
+        <item name="colorOnPrimaryContainer">@color/green_700</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/green_300</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+
+        <!-- Surface colors -->
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Status bar color for API 23+ -->
+        <item name="android:statusBarColor" tools:targetApi="23">@color/green_700</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+    </style>
+
+    <style name="Theme.AgriAI" parent="Base.Theme.AgriAI" />
+
+    <!-- NoActionBar theme for splash and starting screens -->
+    <style name="Theme.AgriAI.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!-- Card styles for Material Design 3 -->
+    <style name="CardViewStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!-- Button Styles for Material Design 3 -->
+    <style name="ButtonStyle.Primary" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/green_600</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="ButtonStyle.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/green_600</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="strokeColor">@android:color/white</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">25dp</item>
+    </style>
+
+    <!-- Text Input Layout Style -->
+    <style name="TextInputLayoutStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/green_600</item>
+        <item name="hintTextColor">@color/green_600</item>
+    </style>
+
+    <!-- Toolbar Style -->
+    <style name="ToolbarStyle" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/green_600</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="navigationIconTint">@android:color/white</item>
+    </style>
+</resources>
+

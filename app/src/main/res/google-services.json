@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "461803214636",
+    "firebase_url": "https://agroai-d5e7a-default-rtdb.firebaseio.com",
+    "project_id": "agroai-d5e7a",
+    "storage_bucket": "agroai-d5e7a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461803214636:android:1a8587baf4092ca1f6be89",
+        "android_client_info": {
+          "package_name": "com.farmmonitor.agriai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlIz9c7agAYqLDwrWTe_7DKw5C-tDlEuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
