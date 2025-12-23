@@ -25,8 +25,8 @@ A comprehensive Android application for real-time farm monitoring using Raspberr
       <br><strong>Farm Dashboard</strong>
     </td>
     <td align="center">
-      <img src="app/src/SCREENSHOTS/home.png" alt="Dashboard" width="250">
-      <br><strong>Farm Dashboard</strong>
+      <img src="app/src/SCREENSHOTS/signup.png" alt="Signup" width="250">
+      <br><strong>Signup</strong>
     </td>
     <td align="center">
       <img src="app/src/SCREENSHOTS/Screenshot 2025-10-04 at 2.48.16 PM.png" alt="Manual Control" width="250">
