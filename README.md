@@ -13,7 +13,7 @@ A comprehensive Android application for real-time farm monitoring using Raspberr
 <table>
   <tr>
     <td align="center">
-      <img src="src/SCREENSHOTS/starting.png" alt="Starting Screen" width="250">
+      <img src="app/src/SCREENSHOTS/starting.png" alt="Starting Screen" width="250">
       <br><strong>Starting Screen</strong>
     </td>
     <td align="center">
