@@ -166,7 +166,7 @@ app/
 
 ### **1. Clone the Repository**
 bash
-git clone https://github.com/yourusername/agrismart-monitor.git
+git clone https://github.com/raj9097/AgroSence.git
 cd agrismart-monitor
 
 
